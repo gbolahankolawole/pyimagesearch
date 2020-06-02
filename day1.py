@@ -4,10 +4,10 @@ import numpy as np
 import argparse
 import cv2
 
-img = 'resources/faces_3.png'
+img = 'resources/faces_9.jpg'
 prototxt = 'resources/deploy.prototxt.txt'
 model = 'resources/res10_300x300_ssd_iter_140000.caffemodel'
-confidence_threshhold = 0.7
+confidence_threshhold = 0.5
 
 print ('[INFO]: loading model...')
 
