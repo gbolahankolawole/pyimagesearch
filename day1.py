@@ -1,10 +1,9 @@
 #Detection of Faces with OpenCV
 
 import numpy as np
-import argparse
 import cv2
 
-img = 'resources/faces_9.jpg'
+img = 'resources/faces_1.jpg'
 prototxt = 'resources/deploy.prototxt.txt'
 model = 'resources/res10_300x300_ssd_iter_140000.caffemodel'
 confidence_threshhold = 0.5
